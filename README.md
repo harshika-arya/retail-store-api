@@ -1,4 +1,4 @@
-# Flask REST API
+# retail-store-api
 
 ## Description
 This project is implemented with Python using Flask, and is a secure REST API designed for the retail sector.
