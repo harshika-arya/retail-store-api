@@ -28,20 +28,20 @@ Authorized user can view/add/update/delete stores and items in them using the RE
 
 ### Retail Stores
 *  GET /stores - fetches list of all stores data
-*  GET /store/<name> - fetches a specific store
-*  POST /store/<name> - creates a new store based on request JSON
-*  PUT /store/<name> - updates store data based on request JSON
-*  DELETE /store/<name> - delete an existing with the given name
+*  GET /store/{name} - fetches a specific store
+*  POST /store/{name} - creates a new store based on request JSON
+*  PUT /store/{name} - updates store data based on request JSON
+*  DELETE /store/{name} - delete an existing with the given name
 
 
 ### Items
 *  GET /items - fetches all item data
-*  GET /item/<name> - fetches item of a particular name
-*  POST /item/<name> - creates a item name
-*  PUT /item/<name> - updates item data
-*  DELETE /item/<name> - deletes item from the system
+*  GET /item/{name} - fetches item of a particular name
+*  POST /item/{name} - creates a item name
+*  PUT /item/{name} - updates item data
+*  DELETE /item/{name} - deletes item from the system
 
- These REST end points are secured using basic authentication mechanism. 
+ These REST endpoints are secured using basic authentication mechanism. 
 
 ## Installation
 
